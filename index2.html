@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+    <title>Pomodoro Timer</title>
+</head>
+<body>
+    <div id="container">
+        <p id="work" class="label">Work:</p>
+        <p id="break" class="label">Break:</p>
+        <p id="cycles" class="label">Cycles:</p>
+
+        <!--Work Timer-->
+        <div id="work-timer" class="timer">
+            <p id="w__minutes">25</p>
+            <p class="semicolon">;</p>
+            <p id="w__seconds">00</p>
+        </div>
+
+        <p id="counter" class="timer">0</p>
+
+        <!--Break Timer-->
+        <div id="break-timer" class="timer">
+            <p id="b__minutes">5</p>
+            <p class="semicolon">;</p>
+            <p id="b__seconds">00</p>
+        </div>
+        
+        <button id="start" class="btn">Start</button>
+        <button id="stop" class="btn">Stop</button>
+        <button id="reset" class="btn">Reset</button>
+
+    </div>
+
+    <script src="./script2.js"></script>
+</body>
+</html>
